@@ -29,8 +29,8 @@ const Footer = ({ onNavigate }) => {
           <div>
             <h3 className="footer-heading">Support</h3>
             <ul className="footer-links">
-              <li><a href="#" className="footer-link">FAQ</a></li>
-              <li><a href="#" className="footer-link">Student Portal</a></li>
+              <li className="footer-link">FAQ</li>
+              <li className="footer-link">Student Portal</li>
               <li><button onClick={() => onNavigate(PageView.CONTACT)} className="footer-link">Contact Support</button></li>
             </ul>
           </div>
@@ -38,8 +38,8 @@ const Footer = ({ onNavigate }) => {
           <div>
              <h3 className="footer-heading">Legal</h3>
             <ul className="footer-links">
-              <li><a href="#" className="footer-link">Privacy Policy</a></li>
-              <li><a href="#" className="footer-link">Terms of Service</a></li>
+              <li className="footer-link">Privacy Policy</li>
+              <li className="footer-link">Terms of Service</li>
             </ul>
           </div>
         </div>
